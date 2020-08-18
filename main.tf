@@ -50,7 +50,7 @@ resource "azurerm_windows_virtual_machine" "vm-ops" {
   location            = azurerm_resource_group.rg-ops.location
   size                = "Standard_F2"
   admin_username      = "mahesh"
-  admin_password      = "Logica@1234"
+  admin_password      = "XXXXXXXXXX"
   network_interface_ids = [
     azurerm_network_interface.nic-ops.id,
   ]
